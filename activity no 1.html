@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Type Conversion</h1>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+        <p id="p4"></p>
+        <p id="p5"></p>
+        <p id="p6"></p>
+    <script>
+        var a=10;
+        var b=30;
+        var c=40;
+        //activity no 4
+        var str="kingdom of FUNi and kingdom of Monera"
+        var search_pos=str.search("Monera");
+        var text=str.replace("FUNi","FUNGi");
+        document.getElementById("p4").innerHTML=search_pos;
+         document.getElementById("p5").innerHTML =str;
+          document.getElementById("p6").innerHTML =text;
+          //end of activity no4
+        document.getElementById("p1").innerHTML=a+b;
+        document.getElementById("p2").innerHTML=String(a)+String(b);
+        document.getElementById("p3").innerHTML=a.toString()+c.toString();
+    
+    
+
+    </script>
+</body>
+</html>
