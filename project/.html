@@ -11,16 +11,16 @@
     <p id="p2"></p>
     <p id="p3"></p>
     <script>
-        ///function add(a,b){
- // return a+b;
-        //}
-        try{
-            add(a,b)
+        function prod(c,d){
+    return c*d;
+            }
+        try {
+            prod( c, d  )
 
-           ///document.getElementById("p2").innerHTML=add(3,9);
+        document.getElementById("p2").innerHTML=prod( 10,5);
         }
-        catch(e){
-document.getElementById("p1").innerHTML=e.message;
+        catch (e) {
+            document.getElementById("p1").innerHTML = e.message;
         }
     </script>
 </body>
